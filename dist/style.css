@@ -1,0 +1,62 @@
+:root {
+    background-color: #f1f1f1;
+    color: #111;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    top: 2rem;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100vw;
+    border-bottom: solid darkslategray;
+}
+
+main {
+    width: max-content;
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+#categorySidebar {
+    border: solid darkslategray;
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+}
+
+#categorySidebar div {
+    margin: 8px 0px;
+}
+
+#categoryTitleDiv {
+    display: flex;
+    flex-direction: row;
+}
+
+.categoryRow {
+    border-style: solid;
+}
+
+.categoryRow > button {
+    float: right;
+    border: none;
+    cursor: pointer;
+}
+
+.categorySettingsSubmitBtn {
+    background-color: #228b22;
+}
+
+.categorySettingsDeleteBtn {
+    background-color: #b22222;
+}
